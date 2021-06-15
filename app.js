@@ -2,6 +2,8 @@ const express = require('express')
 
 const app = express();
 
+require('./models');
+
 // set up author routes
 const authorRouter = require('./routes/authorRouter')
 
